@@ -224,7 +224,7 @@
 [command.log.modules.activate.success] = ✅ Você ativou o modulo ``%s``
 [command.log.modules.deactivate.success] = ✅ Você desativou o modulo ``%s``
 [command.math.description] = Realize operações matemáticas.
-[command.math.error] = 😟 Oops, a expressão metemática inserida é invalida
+[command.math.error] = 😟 Oops, a expressão matemática inserida é invalida
 [command.math.success] = ✅ **Resposta**: `%s`
 [command.minecraft.description] = Comandos sobre minecraft
 [command.minecraft.status.embed.title] = Mojang Status
