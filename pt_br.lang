@@ -318,7 +318,7 @@
 [command.starboard.remove.error.invalidstarboard] = 😟 Oops, a starboard com a id inserida não existe.
 [command.starboard.remove.success] = ✅ Você deletou com sucesso a starboard de id ``%s``.
 [command.starboard.list.error.nostarboards] = 😟 Oops, parece que você não posssui uma starboard você pode criar uma utilizando o comando ``%s``
-[command.starboard.list.paginator.title] = :newspaper: Listando todas as starboads!
+[command.starboard.list.paginator.title] = :newspaper: Listando todas as starboads:
 [command.starboard.list.paginator.page] = ID: %s | Emote: %s (%s mensagens)
 [command.starboard.embed.title] = Enviada por %s
 [command.starboard.embed.footer] = Enviada em #%s
