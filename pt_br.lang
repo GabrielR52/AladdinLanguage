@@ -215,7 +215,7 @@
 [command.image.embed.field.2] = ❤ Likes
 [command.image.embed.footer] = Pedido por %s
 [command.invite.description] = Me chame para sua guilda!
-[command.log.description] = Configure o log da sua guilda
+[command.log.description] = Configure o sistema de logs de sua guilda
 [command.log.setchannel.error] = 😟 Oops, você não mencionou nenhum canal.
 [command.log.setchannel.success] = ✅ Você alterou o canal log da guilda para ``%s``
 [command.log.modules.error] = 😟 Oops, o modulo indicado é invalido.
