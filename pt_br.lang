@@ -1,7 +1,7 @@
 ﻿[music.leftalone] = 🤔 Fui deixado sozinho no canal de música, irei sair em 1 minuto caso ninguem entre!
 [music.addtoqueue] = :musical_note: %s adicionou a musica ``%s`` na playlist! (``%s``) [``%s``]
 [music.skipremoved] = :guitar: ``%s`` retirou seu voto para pular! (``%s/%s``)
-[music.skipadded] = :guitar: ``%s`` votou para pular! (``%s/%s``)
+[music.skipadded] = :guitar: ``%s`` votou para pular a musica atual! (``%s/%s``)
 [music.queuefinished] = :musical_note: Playlist finalizada, desconectando...
 [music.notonsamechannel] = 😟 Oops, você não esta conectado ao canal a qual eu estou tocando!
 [music.notonchannel] = 😟 Oops, você não esta conectado a um canal de voz!
