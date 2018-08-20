@@ -40,7 +40,7 @@
 [command.music.volume.description] = Altere o volume do player de música
 [command.music.volume.error.invalidvalue] = 😟 Oops, o valor necessita ser maior que ``30`` e menor que ``110``
 [command.music.volume.success] = ✅ Você alterou o volume do player atual para ``%s``
-[command.music.lyrics.description] = Veja a letra de música que está tocando!
+[command.music.lyrics.description] = Veja a letra da música que está tocando!
 [command.music.lyrics.error.notfound] = 😟 Oops, não encontrei uma letra para a música atual!
 [commandtype.fun] = Diversão
 [commandtype.informative] = Informativo
@@ -57,10 +57,10 @@
 [config.prefix.description] = Prefixo principal para comandos
 [config.member_create_cmds.description] = Define se membros irão poder criar comandos.
 [config.member_can_repeat.description] = Permite que membros alterer o modo de repetição do player de música
-[config.minecraft_crashhelper.description] = Permite que membros envie um crash report no canal de suporte para auto-analise
+[config.minecraft_crashhelper.description] = Permite que membros envie um crash report no canal de suporte para auto-análise
 [config.the_game.description] = Ativa "o jogo" na guilda
 [config.starboard_selfreact.description] = Permite auto-reações nas starboards
-[guild.join.message] = Olá meu nome é Aladdin, parece que você quer me acompanhar em minha jornada, vou te explicar os básicos.\n\nEu sou um bot administrativo bastante complexo movido a grupos e permissões customizáveis, vou lhe explicar em breves palavras como este sistema funciona\nPara criar um grupo você pode utilizar o comando ``a!group create [nome]`` lembre-se que grupos com nome de cargos irão automaticamente ser conectados.\nPara adicionar uma permissão a um grupo utilize o comando ``a!group addperm [nome] [permissão]`` as permissões são chamadas de nodes e aceitam sufixos como ``*`` para garantir todas as permisssões daquele node, por exemplo se você utilizar a permissão ``command.*`` isto irá garantir acesso a todos os comandos disponíveis, bom, você pode listar todos os nodes digitando ``a!group nodes``.\n\nEu sei que você em algum momento vai querer retirar permisssão de algum membro para determinada coisa, mas calma, não precisa criar um novo grupo para isso, para retirar ou adicionar acesso você pode utilizar o comando ``a!user addperm -[permissão] [@usuário]`` para remover a permissão de um usuário onde ``-`` indica que ele não tera acesso de forma alguma a permissão definida, supondo que você já entendeu, se quiser adicionar permissões a um usuário apenas remova o ``-``.\n\nAHHHHHHHHH, já ia me esquecendo, o que adianta criar grupos sem adicionar membros ^-^? para definir o grupo de um usuário digite ``a!user setgroup [grupo] [@usuário]``.\n\nVocê também pode alterar algumas configurações minhas, de uma olhada no comando a!config se estiver interessado, você pode obter alguns exemplos usando ``a!help config``.\n\nEspero que se divirta comigo :smiley: e se precisar de ajuda, entre na minha guilda! https://discord.gg/ANVp6qv
+[guild.join.message] = Olá meu nome é Aladdin, parece que você quer me acompanhar em minha jornada, vou te explicar os básicos.\n\nEu sou um bot administrativo bastante complexo movido a grupos e permissões customizáveis, vou lhe explicar em breves palavras como este sistema funciona\nPara criar um grupo você pode utilizar o comando ``a!group create [nome]`` lembre-se que grupos com nome de cargos irão automaticamente ser conectados.\nPara adicionar uma permissão a um grupo utilize o comando ``a!group addperm [nome] [permissão]`` as permissões são chamadas de nodes e aceitam sufixos como ``*`` para garantir todas as permisssões daquele node, por exemplo se você utilizar a permissão ``command.*`` isto irá garantir acesso a todos os comandos disponíveis, bom, você pode listar todos os nodes digitando ``a!group nodes``.\n\nEu sei que você em algum momento vai querer retirar permissão de algum membro para determinada coisa, mas calma, não precisa criar um novo grupo para isso, para retirar ou adicionar acesso você pode utilizar o comando ``a!user addperm -[permissão] [@usuário]`` para remover a permissão de um usuário onde ``-`` indica que ele não terá acesso de forma alguma a permissão definida, supondo que você já entendeu, se quiser adicionar permissões a um usuário apenas remova o ``-``.\n\nAHHHHHHHHH, já ia me esquecendo, o que adianta criar grupos sem adicionar membros ^-^? para definir o grupo de um usuário digite ``a!user setgroup [grupo] [@usuário]``.\n\nVocê também pode alterar algumas configurações minhas, de uma olhada no comando a!config se estiver interessado, você pode obter alguns exemplos usando ``a!help config``.\n\nEspero que se divirta comigo :smiley: e se precisar de ajuda, entre na minha guilda! https://discord.gg/ANVp6qv
 [command.akinator.description] = Pense em um personagem e o gênio Akinator adivinhará quem é
 [command.akinator.alreadyingame] = 😟 Oops, você já está em um akinator!
 [command.akinator.serversoffline] = 😟 Oops, os servidores do akinator estão offline!
@@ -132,21 +132,21 @@
 [command.giveaway.formula.success.1] = ✅ A formula utilizada para selecionar os ganhadores é ``seed % numero de participantes``. :interrobang: Você pode utilizar ``%s`` para checar uma seed.
 [command.giveaway.formula.success.2] = ✅ A seed retornou o valor ``%s``. Cheque a lista das reações para achar o ganhador.
 [command.giveaway.builder.notset] = Não definido
-[command.giveaway.builder.embed.prize.title] = :moneybag: Adicionando um premio
+[command.giveaway.builder.embed.prize.title] = :moneybag: Adicionando um prêmio
 [command.giveaway.builder.embed.prize.description] = Reaja com os valores indicados abaixo para os alterar\nquando estiver pronto clique no :white_check_mark:\n\n:one: Nome: %s\n:two: Mensagem privada: %s
 [command.giveaway.builder.embed.main.title] = :moneybag: Criando seu sorteio
-[command.giveaway.builder.embed.main.description] = Reaja com os valores indicados abaixo para os alterar\nquando estiver pronto clique no :white_check_mark:\n\n:one: Título do sorteio: %s\n:two: Data de finalização: %s\n:three: Premios: %s\n:four: Canal onde ocorrerá: %s
+[command.giveaway.builder.embed.main.description] = Reaja com os valores indicados abaixo para os alterar\nquando estiver pronto clique no :white_check_mark:\n\n:one: Título do sorteio: %s\n:two: Data de finalização: %s\n:three: Prêmios: %s\n:four: Canal onde ocorrerá: %s
 [command.giveaway.builder.embed.footer] = Iniciado por
-[command.giveaway.builder.prize.notitleset] = 😟 Oops, você precisa ao menos definir o nome do premio!
+[command.giveaway.builder.prize.notitleset] = 😟 Oops, você precisa ao menos definir o nome do prêmio!
 [command.giveaway.builder.prize.set.title] = 🤔 Digite no chat o título desejado.
 [command.giveaway.builder.prize.set.message] = 🤔 Digite no chat a mensagem que deseja que seja enviado ao usuário ganhador por DM.
 [command.giveaway.builder.main.notitleset] = 😟 Oops, você precisa definir o nome do sorteio.
 [command.giveaway.builder.main.notimeset] = 😟 Oops, você precisa definir o tempo do sorteio.
 [command.giveaway.builder.main.nochannelset] = 😟 Oops, você precisa definir o canal do sorteio.
-[command.giveaway.builder.main.noprizeset] = 😟 Oops, você precisa ao menos adicionar um premio.
+[command.giveaway.builder.main.noprizeset] = 😟 Oops, você precisa ao menos adicionar um prêmio.
 [command.giveaway.builder.main.set.title] = 🤔 Digite no chat o título do sorteio.
 [command.giveaway.builder.main.set.time] = 🤔 Digite no chat quanto tempo deseja para o sorteio. Ex ``2h = 2 horas | 2m = 2 minutos``
-[command.giveaway.builder.main.set.time.error.timelimit] = 📥 Você não pode exceder o tempo maximo de 24 horas. Você pode ignorar esta limitação ativando uma chave premium, para mais informações utilize ``%s``
+[command.giveaway.builder.main.set.time.error.timelimit] = 📥 Você não pode exceder o tempo máximo de 24 horas. Você pode ignorar esta limitação ativando uma chave premium, para mais informações utilize ``%s``
 [command.giveaway.builder.main.set.time.error.invalid] = 😟 Oops, o tempo inserido é invalido, você pode digitar ``cancelar`` para cancelar.
 [command.giveaway.builder.main.set.channel] = 🤔 Mencione no chat o canal cujo o sorteio ocorrerá.
 [command.giveaway.builder.main.set.channel.error.invalid] = 😟 Oops, você deve mencionar um canal ou digitar ``cancelar`` para cancelar.
@@ -157,7 +157,7 @@
 [command.group.create.success.1] = ✅ Você criou com sucesso o grupo ``%s`` e definiu a propriedade ``default`` para ``%s``.
 [command.group.create.success.2] = :interrobang: Para adicionar um membro ao grupo use ``%s``.
 [command.group.unknowngroup] = 😟 Oops, parece que este grupo não existe!
-[command.group.delete.defaultgroup] = 😟 Oops, este é o grupo padrão de sua guilda, você não pode remove-lo.
+[command.group.delete.defaultgroup] = 😟 Oops, este é o grupo padrão de sua guilda, você não pode removê-lo.
 [command.group.delete.success] = ✅ Você deletou com sucesso o grupo ``%s``.
 [command.group.addperm.unknownnode] = 😟 Oops, parece que o nodo ``%s`` não existe, você pode listar todos utilizando ``%s``.
 [command.group.addperm.success] = ✅ Você adicionou a permissão ``%s`` para o grupo ``%s`` com sucesso.
@@ -218,7 +218,7 @@
 [command.log.description] = Configure o sistema de logs de sua guilda
 [command.log.setchannel.error] = 😟 Oops, você não mencionou nenhum canal.
 [command.log.setchannel.success] = ✅ Você alterou o canal log da guilda para ``%s``
-[command.log.modules.error] = 😟 Oops, o modulo indicado é inválido.
+[command.log.modules.error] = 😟 Oops, o módulo indicado é inválido.
 [command.log.modules.list.paginator.title] = :wrench: Lista de todos os módulos
 [command.log.modules.list.paginator.page] = Nome: %s\nDescrição: %s\nAtivo: %s
 [command.log.modules.activate.success] = ✅ Você ativou o módulo ``%s``
@@ -237,7 +237,7 @@
 [command.osu.nonickset] = :interrobang: Você pode definir um nickname automático para não precisar ficar definindo seu usuário toda hora utilizando ``%s``.
 [command.osu.recommend.error] = 😟 Oops, parece que não há recomendações por agora!
 [command.osu.setuser.success] = ✅ Agora todos os comandos usarão ``%s`` como nick padrão quando sem argumentos.
-[command.osu.follow.success.1] = 🤔 Tentei te registrar no programa, se você recebeu uma mensagem no privado significa que foi um sucesso, caso contrario cheque se eu posso te enviar mensagens privadas! ^O^
+[command.osu.follow.success.1] = 🤔 Tentei te registrar no programa, se você recebeu uma mensagem no privado significa que foi um sucesso, caso contrário cheque se eu posso te enviar mensagens privadas! ^O^
 [command.osu.follow.success.2] = ✅ Agora você não está mais seguindo ``%s``
 [command.osu.profile.notopplay] = O jogador não possui uma top play
 [command.osu.profile.error] = 😟 Oops, ocorreu um erro ao tentar adquirir os dados do jogador informado: ``%s``
@@ -260,7 +260,7 @@
 [command.overwatch.profile.embed.field.time] = Tempo de Jogo
 [command.paladins.description] = Informações sobre Paladins
 [command.paladins.profile.unknowplayer] = 😟 Oops, parece que não há um jogador com este nome!
-[command.paladins.profile.sessionerror] = 😟 Oops, ocorreu um erro ao criar a seção: %s
+[command.paladins.profile.sessionerror] = 😟 Oops, ocorreu um erro ao criar a sessão: %s
 [command.paladins.profile.error] = 😟 Oops, ocorreu um erro ao realizar este comando.
 [command.paladins.profile.embed.title] = Perfil de %s | Status %s
 [command.paladins.profile.embed.description] = Usuário nível ``%s`` | Região ``%s``
@@ -325,7 +325,7 @@
 [command.user.description] = Defina grupos ou permissões a membros\n\nnPermissões com ``*`` são aceitáveis, exemplo ``command.*``\nPermissões com ``-`` retirarão acesso a ela, exemplo ``-command.music``
 [command.user.arg.1] = permissão
 [command.user.arg.2] = usuário
-[command.user.error.invaliduser] = 😟 Ops, o usuário definido é invalido.
+[command.user.error.invaliduser] = 😟 Ops, o usuário definido é inválido.
 [command.user.addperm.error.invalidnode] = 😟 Oops, parece que o nodo ``%s`` não existe, você pode listar todos utilizando ``%s``.
 [command.user.addperm.error.alreadyhas] = 😟 Ops, parece que o usuário já possuía esta permissão.
 [command.user.addperm.success] = ✅ Você adicionou a permissão ``%s`` com sucesso ao usuário ``%s``.
@@ -355,7 +355,7 @@
 [command.warframe.alerts.embed.field.3] = Localidade: %s
 [command.warframe.alerts.embed.field.4] = Recompensa: [%s](%s)
 [command.warframe.alerts.embed.field.5] = Créditos: %s
-[command.warframe.alerts.embed.field.6] = Nível Minímo:
+[command.warframe.alerts.embed.field.6] = Nível Mínimo:
 [command.warframe.alerts.embed.field.7] = Não há alertas disponíveis
 [command.warframe.armor.arg] = [quantidade] ou [armadura base] [nível base] [nível atual]
 [command.warframe.armor.error.invalidnumber] = 😟 Oops, o número indicado é inválido.
