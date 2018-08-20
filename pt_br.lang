@@ -185,7 +185,7 @@
 [command.help.embed.help.footer] = Pedido por %s
 [command.help.embed.help.field.1] = Descrição:
 [command.help.embed.help.field.2] = Exemplos:
-[command.help.embed.help.field.3] = Aliás:
+[command.help.embed.help.field.3] = Alias:
 [command.help.embed.help.field.4] = Permissão:
 [command.help.embed.help.field.5] = Permissões:
 [command.iam.description] = Permite que membros assumam cargos por conta própria
