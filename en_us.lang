@@ -324,7 +324,7 @@
 [command.log.setchannel.success] = ✅ You changed the guild's log channel to ``%s``
 [command.osu.profile.error] = 😟 Whoops, an error has occured while trying to get the data from the player: ``%s``
 [command.group.info.embed.permissionsnotset] = *No defined permissions*
-[command.premium.give.success] = ✅ You activated a key to ``%s`` for 30 dias.
+[command.premium.give.success] = ✅ You activated a key to ``%s`` for 30 days.
 [command.user.addperm.error.invalidnode] = 😟 Whoops, it looks like the node ``%s`` does not exist, you can list them all by using ``%s``.
 [command.starboard.create.success] = ✅ You successfully created the starboard.
 [command.giveaway.builder.main.nochannelset] = 😟 Whoops, you need to define the draw's channel.
